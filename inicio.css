@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%; /*sendo explicito na altura do html e body, faz com que o flex box veritical funcione*/
+}
+
+body{
+    background: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*pesquisar o porque nunca funfa*/
+    align-items: center;
+    min-height: 100%;    
+}
+
+.container__title{
+    color: #21EB00;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.container__subtitle{
+    color: #9e9e9e;
+    margin-bottom: 0.5rem;
+}
+
+.container__input{
+    background: #191A18;
+    color: #9e9e9e;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.container__input:focus{
+    outline: none;
+    border: 1px solid #21EB00;
+}
+
+.container__button{
+    background-color: #21EB00;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    color: black;
+    font-weight: 700;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in;
+    white-space: nowrap;
+}
+
+.container__button:hover{
+    background-color: #9e9e9e;
+}
+  
+    
+
+

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%; /*sendo explicito na altura do html e body, faz com que o flex box veritical funcione*/
+}
+
+body{
+    background: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.header__title{
+    color: #21EB00;
+    font-size: 2.2rem;
+}
+
+
+.button{
+    background-color: #21EB00;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    color: black;
+    font-weight: 700;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in;
+    white-space: nowrap;
+}
+
+.button:hover{
+    background: #9e9e9e;
+}
+
+.content{
+    position: absolute;
+    transform: translate(-50%, -30%);
+    top: 30%;
+    left: 50%;
+}
+
+
+.content-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.content__title{
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.times-up{
+    white-space: nowrap;
+}
+
+
+.content__time{
+    display: flex;
+    color: white;
+    margin-top: 1rem;
+    font-size: 4.5rem;
+}
+
+.timer{
+    margin: 0rem 1rem 0 1rem;
+}
+
+.content__subtitle{
+    color: #21EB00;
+    font-size: 1.3rem;
+    font-weight: 400;
+    position: absolute;
+    transform: translate(-50%, -95%);
+    top: 95%;
+    left: 50%;
+    white-space: nowrap;
+}
+
+.content__subtitle span:nth-child(1){
+    position: absolute;
+    top: 1rem;
+    right: 7.2em;
+}
+
+.content__subtitle span:nth-child(2){
+    position: absolute;
+    top: 1rem;
+    right: 2.9rem;
+}
+
+.content__subtitle span:nth-child(3){
+    position: absolute;
+    top: 1rem;
+    left: 0.1rem;
+}
+
+.content__subtitle span:nth-child(4){
+    position: absolute;
+    top: 1rem;
+    left: 6.5rem;
+}
+
+
