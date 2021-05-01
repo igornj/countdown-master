@@ -1,2 +1,4 @@
 # countdown-master
-Challenge from <a href"https://devchallenge.com.br/challenges">
+Challenge from https://devchallenge.com.br/challenges
+
+VERCEL PREVIEW - https://countdown-master.vercel.app/inicio.html
